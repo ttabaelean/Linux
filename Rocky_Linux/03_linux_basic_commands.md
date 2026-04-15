@@ -168,7 +168,10 @@
     chown user:user web_backup.sh
     ls -l web_backup.sh
     ```
+
     
+<br>
+  
 
 ### [Hands-On LAB] 신규 프로젝트 개발자(developer) 환경 구축 실습
 
