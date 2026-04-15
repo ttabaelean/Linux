@@ -104,7 +104,7 @@
 
 </aside>
 
-  <br>
+<br>
   
 사전 설정 : developer 터미널 (부하 발생)
 
