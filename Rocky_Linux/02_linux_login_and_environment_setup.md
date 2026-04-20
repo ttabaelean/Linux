@@ -77,7 +77,7 @@
     
     ip addr
     
-    ping -c 8.8.8.8
+    ping -c 3 8.8.8.8
     ```
     
 
@@ -91,5 +91,5 @@
     
     ip addr
     
-    ping -c 8.8.8.8
+    ping -c 3 8.8.8.8
     ```
