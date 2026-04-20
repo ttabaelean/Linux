@@ -14,13 +14,13 @@
     systemctl restart sshd
     ```
     
-- admin 사용자에게 root 권한 할당
+- user 사용자에게 root 권한 할당
     
     ```bash
     # sudoers 설정
     vi /etc/sudoers
     ...
-    admin  ALL=(ALL)       NOPASSWD: ALL
+    user  ALL=(ALL)       NOPASSWD: ALL
     ```
     
 - hosts 파일에 호스트이름과 IP 주소 설정
