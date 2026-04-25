@@ -119,6 +119,12 @@
         # 사용자를 새로운 추가 그룹에 포함시킵니다.
         sudo usermod -aG wheel devuser01
         grep wheel /etc/group
+        id devuse01
+
+        # 사용자에게 할당된 그룹을 제거합니다.
+        sudo gpasswd -d devuser01 wheel
+        grep wheel /etc/group
+        id devuse01        
         ```
         
     - 사용자 계정의 상세 정보와 소속 그룹을 최종 확인합니다.
